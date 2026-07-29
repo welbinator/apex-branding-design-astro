@@ -1,0 +1,67 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+export interface Props { title?: string; styles?: string[]; bodyClass?: string; }
+const { title = 'Apex New', styles = [], bodyClass = '' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
+
+// Inline the exact Apex logo SVG from the original theme.
+const logoSvg = fs.readFileSync(path.resolve('src/logo.svg'), 'utf-8');
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>{title}</title>
+  {styles.map((s) => <link rel="stylesheet" href={`${base}${s}`} />)}
+  <link rel="stylesheet" href={`${base}css/bootstrap.min.css`} />
+  <link rel="stylesheet" href={`${base}css/fontawesome-all.min.css`} />
+  <link rel="stylesheet" href={`${base}css/themify.css`} />
+  <link rel="stylesheet" href={`${base}css/global.css`} />
+</head>
+<body class={bodyClass}>
+  <nav class="navbar navbar-dark navbar-expand-md sticky-top">
+    <div class="container-fluid px-0">
+      <a class="navbar-brand ms-3" href={base} set:html={logoSvg}></a>
+      <button data-bs-toggle="collapse" class="navbar-toggler me-3" data-bs-target="#navcol-1">
+        <span class="visually-hidden">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navcol-1" class="collapse navbar-collapse px-3 pb-2 px-lg-0 pb-lg-0">
+        <ul id="menu-main-menu" class="navbar-nav">
+          <li class="nav-item menu-item"><a class="nav-link" href={base}>Home</a></li>
+          <li class="nav-item menu-item"><a class="nav-link" href={`${base}works`}>Case Studies</a></li>
+          <li class="nav-item menu-item"><a class="nav-link" href={`${base}about`}>About</a></li>
+          <li class="nav-item menu-item"><a class="nav-link" href={`${base}podcasts`}>Podcast</a></li>
+          <li class="nav-item menu-item"><a class="nav-link" href={`${base}contact`}>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <slot />
+
+  <div class="section footer">
+    <div class="container">
+      <h3 class="footer-header">APEX<br />DESIGN STUDIO</h3>
+      <ul class="nav flex-column flex-lg-row mb-5">
+        <li class="nav-item"><a class="nav-link active" href={base}>Home</a></li>
+        <li class="nav-item"><a class="nav-link" href={`${base}about`}>About</a></li>
+        <li class="nav-item"><a class="nav-link" href={`${base}works`}>Case Studies</a></li>
+        <li class="nav-item"><a class="nav-link" href={`${base}blog`}>Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href={`${base}contact`}>Contact</a></li>
+      </ul>
+      <ul class="nav social-links mb-4">
+        <li class="nav-item"><a class="nav-link active" href="https://www.facebook.com/apexbrandingdesign"><i class="fab fa-facebook"></i></a></li>
+        <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com/in/jameswelbes/"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+      <span class="text-uppercase text-white-50">Copyright © Apex Design studio. All Rights Reserved</span>
+    </div>
+    <img class="footer-logo" src={`${base}img/Apex-outline.svg`} alt="" />
+  </div>
+
+  <script is:inline src={`${base}js/bootstrap.min.js`}></script>
+</body>
+</html>

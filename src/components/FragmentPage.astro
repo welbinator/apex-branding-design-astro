@@ -1,0 +1,18 @@
+---
+// Renders a pre-localized HTML fragment inside the Apex layout.
+import fs from 'node:fs';
+import path from 'node:path';
+import Layout from '../layouts/Layout.astro';
+export interface Props { fragment: string; title?: string; styles?: string[]; bodyClass?: string; }
+const { fragment, title = 'Apex Branding &amp; Design', styles = [], bodyClass = '' } = Astro.props;
+let html = fs.readFileSync(path.resolve('src/fragments/' + fragment), 'utf-8');
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+// Production: serve uploaded images from R2 custom domain. Local dev: leave as /uploads/.
+const assetHost = import.meta.env.PUBLIC_ASSET_HOST || '';
+if (assetHost) html = html.replace(/(src|href)="\/uploads\//g, `$1="${assetHost}/uploads/`)
+                          .replace(/(srcset=")([^"]*)"/g, (m, p, v) => p + v.replace(/\/uploads\//g, `${assetHost}/uploads/`) + '"');
+if (base) html = html.replace(/(src|href|srcset)="\/(img|css|js|works|podcasts|about|contact|blog)/g, `$1="${base}/$2`);
+---
+<Layout title={title} styles={styles} bodyClass={bodyClass}>
+  <Fragment set:html={html} />
+</Layout>

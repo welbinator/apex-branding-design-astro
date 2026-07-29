@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Apex New</title>
+
+    <meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Page not found - Apex Branding &amp; Design</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Apex Branding &amp; Design" />
+	<meta property="og:site_name" content="Apex Branding &amp; Design" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/apexbranding.design\/#website","url":"https:\/\/apexbranding.design\/","name":"Apex Branding & Design","description":"Elevate Your Brand","publisher":{"@id":"https:\/\/apexbranding.design\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/apexbranding.design\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/apexbranding.design\/#organization","name":"Apex Branding & Design","url":"https:\/\/apexbranding.design\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/apexbranding.design\/#\/schema\/logo\/image\/","url":"https:\/\/apexbranding.design\/wp-content\/uploads\/2021\/06\/apex-black.png","contentUrl":"https:\/\/apexbranding.design\/wp-content\/uploads\/2021\/06\/apex-black.png","width":412,"height":402,"caption":"Apex Branding & Design"},"image":{"@id":"https:\/\/apexbranding.design\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/apexbrandingdesign","https:\/\/www.linkedin.com\/in\/jameswelbes\/","https:\/\/www.youtube.com\/jameswelbes"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Apex Branding &amp; Design &raquo; Feed" href="https://apexbranding.design/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Apex Branding &amp; Design &raquo; Comments Feed" href="https://apexbranding.design/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Apex Branding &amp; Design &raquo; iCal Feed" href="https://apexbranding.design/events/?ical=1" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v11.1.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-XPHJN38ED3"  data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '11.1.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/apexbranding.design\/wp-content\/plugins\/formidable-bootstrap\/fonts\/glyphicons-halflings-regular.woff\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-XPHJN38ED3',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-XPHJN38ED3', {"forceSSL":"true","link_attribution":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='formidable-css' href='https://apexbranding.design/wp-content/plugins/formidable/css/formidableforms.css?ver=6111928' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='swiper-css-css' href='https://unpkg.com/swiper@8/swiper-bundle.min.css?ver=8.4.7' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='bootstrap-css' href='https://apexbranding.design/wp-content/plugins/formidable-bootstrap/css/bootstrap.min.css?ver=5.0.2' media='all' />
+<style id="bootstrap-inline-css">
+ul.pagination li.dots.disabled {
+				padding: 6px 8px;
+				background-color: #fff;
+				border: 1px solid #ddd;
+			}
+		.frm_pagination_cont ul.frm_pagination {
+			display: flex;
+		}
+		.frm_pagination_cont ul.frm_pagination > li {
+			margin: 0;
+		}.input-group .form-control {
+			margin-right: 0;
+		}
+/*# sourceURL=bootstrap-inline-css */
+</style>
+<link rel='stylesheet' id='bootstrap-glyphicons-css' href='https://apexbranding.design/wp-content/plugins/formidable-bootstrap/css/bootstrap-glyphicons.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='smtp-test-styles-css' href='https://apexbranding.design/wp-content/plugins/smtp-test/assets/css/styles.css?ver=1.3.2' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css' href='https://apexbranding.design/wp-content/themes/apex-branding-design/assets/bootstrap/css/bootstrap.min.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='apex-branding-design-league-spartan-css' href='https://apexbranding.design/wp-content/themes/apex-branding-design/assets/css/Proxima_Nova.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='apex-branding-design-fa-css' href='https://apexbranding.design/wp-content/themes/apex-branding-design/assets/fonts/fontawesome-all.min.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='apex-branding-design-style-css' href='https://apexbranding.design/wp-content/themes/apex-branding-design/sass/style.css?ver=1.0.1' media='all' />
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://apexbranding.design/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+<script async data-wp-strategy="async" id="monsterinsights-frontend-script-js" src="https://apexbranding.design/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=11.1.1"></script>
+<script data-cfasync="false" data-wpfc-render="false" id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/apexbranding.design","hash_tracking":"false","v4_id":"G-XPHJN38ED3"};</script>
+<link rel="https://api.w.org/" href="https://apexbranding.design/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://apexbranding.design/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://apexbranding.design"><link rel="alternate" href="https://apexbranding.design/wp-json/tribe/events/v1/" /><script>document.documentElement.className += " js";</script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.3/plyr.css" /><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://apexbranding.design/wp-content/uploads/2021/06/apex-black-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://apexbranding.design/wp-content/uploads/2021/06/apex-black.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://apexbranding.design/wp-content/uploads/2021/06/apex-black.png" />
+<meta name="msapplication-TileImage" content="https://apexbranding.design/wp-content/uploads/2021/06/apex-black.png" />
+<style id="wp-custom-css">
+li.rmwp__new_idea_form_input:nth-child(3) {
+/*     display: none; */
+}
+.wp-roadmap-idea p {
+    color: white;
+}
+
+.idea-vote-box {
+    display: none;
+}
+/* plyr.io stuff */
+button.plyr__control.plyr__control--overlaid {
+    opacity: 0;
+}
+.plyr__controls {
+	opacity: 0;
+	pointer-events: none;
+}
+.plyr.plyr--full-ui.plyr--video.plyr--youtube:hover .plyr__controls, .plyr.plyr--full-ui.plyr--video.plyr--youtube:hover button.plyr__control.plyr__control--overlaid {
+    opacity: 1;
+    pointer-events: all;
+}
+.plyr__video-wrapper.plyr__video-embed {
+    min-height: 200px;
+}
+.youtubes.type-youtubes .entry-content {
+    margin: 0;
+}
+/* end plyr.io stuff */
+
+.section.container.youtube.archive {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	max-width: 100%;
+	gap: 20px;
+	
+}
+.section.container.youtube.archive article {
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #fac56b30;
+}
+.section.container.youtube.archive h2 {
+	font-size: clamp(1rem, 18px, 2rem); 
+	text-align: center;
+}
+.client-logo {
+/*     max-height: 100px; */
+}
+h1.hero-header {
+/* 	font-size: 2.5em; */
+}
+.hero {
+/* 	align-items: flex-start;
+	padding-top: 20vh; */
+}
+.hero-container p {
+/* 	font-size: 1em; */
+	
+}
+
+
+h5.team-header.subheader {
+/* 	text-align: center; */
+}
+h3.team-header {
+/* 	text-align: center; */
+}
+.footer .nav .nav-item:first-child .nav-link {
+/*     padding-left: 0!important; */
+}
+
+h1.hero-header {
+/*     font-size: clamp(1.5rem, 3vw, 2em); */
+	
+} 
+.hero-btn {
+box-shadow: 0 0 0 0 #fff, 0.5rem 0.5rem 30px #58448e00;
+  transition: box-shadow 1s;
+}
+.hero-btn:hover {
+/*   box-shadow: 0 0 5px 2px #fff, 0.5rem 0.5rem 30px #58448e00; */
+}
+.hero-tagline {
+/* 	margin-top: 30px; */
+}
+.hero-tagline p {
+/* 	margin: 0; */
+} 
+body.blog article.post {
+    box-shadow: 0px 0px 16px #ffffff10;
+    padding: 20px;
+}
+body.blog .home a {
+	color: #fac56b;
+	text-decoration: none;
+}
+body.blog .home header.entry-header h2.entry-title a {
+	color: white;
+	text-decoration: none;
+}
+.entry-meta {
+    font-size: 1rem;
+}
+.home article {
+	display: flex;
+	gap: 50px;
+}
+.home article .post-thumbnail-div {
+	max-height: 200px;
+	width: auto;
+}
+
+
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-12-9 22:4:36
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="error404 wp-custom-logo wp-theme-apex-branding-design tribe-no-js page-template-apex-branding-design hfeed">
+        <nav class="navbar navbar-dark navbar-expand-md sticky-top">
+        <div class="container-fluid px-0"><a class="navbar-brand ms-3" href="/"><svg class="logo" width="100%" height="100%" viewBox="0 0 54 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                    <g transform="matrix(1.24906,0,0,1.24906,-153.551,131.878)">
+                        <path d="M144.491,-85.025C144.515,-85.04 144.548,-85.047 144.59,-85.047C144.689,-85.047 144.835,-85.076 145.027,-85.136C145.22,-85.195 145.366,-85.234 145.465,-85.254C146.473,-85.482 146.977,-86.055 146.977,-86.974L146.977,-102.632C146.977,-103.541 146.809,-104.122 146.473,-104.374C146.137,-104.626 145.529,-104.752 144.649,-104.752L143.982,-104.752C143.774,-104.752 143.671,-104.871 143.671,-105.108C143.671,-105.246 143.735,-105.33 143.863,-105.36L143.967,-105.36L152.285,-105.582L153.783,-105.582C155.552,-105.464 157.025,-104.826 158.201,-103.67C159.378,-102.513 159.966,-101.127 159.966,-99.511C159.966,-97.894 159.387,-96.429 158.231,-95.114C157.727,-94.531 157.158,-94.059 156.526,-93.698C155.893,-93.337 155.27,-93.152 154.658,-93.142L150.209,-93.32L150.091,-93.32C149.943,-93.32 149.868,-93.251 149.868,-93.113L149.868,-87.019C149.868,-86.475 150.017,-86.075 150.313,-85.818C150.61,-85.561 151.237,-85.358 152.196,-85.21C152.325,-85.19 152.532,-85.158 152.819,-85.113C153.106,-85.069 153.298,-85.047 153.397,-85.047C153.496,-85.047 153.546,-85.007 153.546,-84.928L153.546,-84.572C153.546,-84.493 153.506,-84.454 153.427,-84.454L151.56,-84.454C151.442,-84.439 151.28,-84.432 151.075,-84.432C150.591,-84.432 150.196,-84.393 149.889,-84.314C149.405,-84.205 149.163,-83.943 149.163,-83.528C149.163,-83.36 149.247,-83.147 149.415,-82.89L153.537,-77.419C153.596,-77.36 153.631,-77.32 153.64,-77.3C153.65,-77.281 153.697,-77.271 153.781,-77.271C153.865,-77.271 154.006,-77.384 154.204,-77.612L158.207,-82.742C158.395,-82.969 158.489,-83.211 158.489,-83.468C158.489,-84.111 157.748,-84.432 156.265,-84.432C156.186,-84.432 156.146,-84.472 156.146,-84.551L156.146,-84.922C156.146,-84.991 156.186,-85.025 156.265,-85.025L164.227,-85.025C164.306,-85.025 164.346,-84.986 164.346,-84.907L164.346,-84.551C164.346,-84.472 164.306,-84.432 164.227,-84.432C162.646,-84.432 161.074,-83.523 159.512,-81.704L154.916,-75.699C154.925,-75.689 154.945,-75.657 154.975,-75.603C155.005,-75.548 155.178,-75.301 155.494,-74.861C155.81,-74.421 156.952,-72.894 158.919,-70.28C160.886,-67.665 161.998,-66.244 162.255,-66.017C162.937,-65.384 163.575,-65.014 164.168,-64.905C164.286,-64.845 164.422,-64.811 164.576,-64.801C164.729,-64.791 164.926,-64.779 165.169,-64.764C165.411,-64.749 165.532,-64.648 165.532,-64.46C165.532,-64.233 165.339,-64.119 164.954,-64.119L156.784,-64.119C156.705,-64.119 156.665,-64.158 156.665,-64.238L156.665,-64.593C156.665,-64.692 156.813,-64.742 157.11,-64.742C158.187,-64.712 158.726,-64.999 158.726,-65.602C158.726,-65.75 158.667,-65.923 158.548,-66.121L153.329,-73.015C153.25,-73.114 153.166,-73.164 153.077,-73.164C152.988,-73.164 152.904,-73.114 152.825,-73.015L147.71,-66.269C147.571,-66.081 147.502,-65.859 147.502,-65.602C147.502,-65.009 148.135,-64.737 149.4,-64.786C149.855,-64.806 150.082,-64.742 150.082,-64.593L150.082,-64.238C150.082,-64.158 150.042,-64.119 149.963,-64.119L141.912,-64.119C141.833,-64.119 141.794,-64.158 141.794,-64.238L141.794,-64.593C141.794,-64.673 141.833,-64.712 141.912,-64.712L142.49,-64.712C143.795,-64.87 145.09,-65.775 146.375,-67.425C146.721,-67.86 147.062,-68.266 147.398,-68.641L152.069,-74.795L147.546,-80.622C147.26,-80.987 146.983,-81.358 146.716,-81.734C145.747,-83.098 144.68,-83.918 143.513,-84.195C143.118,-84.353 142.584,-84.432 141.912,-84.432C141.879,-84.432 141.852,-84.439 141.833,-84.454L138.772,-84.454L139.036,-80.206C139.036,-80.108 138.962,-80.058 138.813,-80.058C138.665,-80.058 138.556,-80.103 138.487,-80.192C138.428,-80.29 138.351,-80.651 138.257,-81.274C138.163,-81.897 137.993,-82.416 137.746,-82.831C137.499,-83.246 137.064,-83.508 136.441,-83.617L130.258,-83.617C130.129,-83.617 130.065,-83.552 130.065,-83.424L130.065,-75.758C130.065,-75.659 130.115,-75.61 130.213,-75.61L135.344,-75.61C136.668,-75.61 137.331,-76.381 137.331,-77.923C137.331,-78.002 137.37,-78.042 137.449,-78.042L137.805,-78.042C137.884,-78.042 137.924,-78.002 137.924,-77.923L137.924,-71.577C137.924,-71.498 137.884,-71.458 137.805,-71.458L137.449,-71.458C137.37,-71.458 137.331,-71.498 137.331,-71.577C137.331,-73.04 136.905,-73.885 136.055,-74.112C135.818,-74.172 135.566,-74.201 135.299,-74.201L130.213,-74.201C130.115,-74.201 130.065,-74.152 130.065,-74.053L130.065,-66.832C130.065,-66.091 130.406,-65.671 131.088,-65.572C131.286,-65.542 131.494,-65.528 131.711,-65.528L136.648,-65.528C137.667,-65.528 138.457,-65.977 139.021,-66.877C139.426,-67.519 139.673,-68.256 139.762,-69.086C139.792,-69.363 139.94,-69.501 140.207,-69.501C140.326,-69.501 140.385,-69.437 140.385,-69.308L139.896,-64.327C139.836,-64.188 139.767,-64.119 139.688,-64.119L123.171,-64.119C123.091,-64.119 123.052,-64.158 123.052,-64.238L123.052,-64.653C123.052,-64.732 123.091,-64.771 123.171,-64.771L123.497,-64.771C123.912,-64.801 124.337,-64.818 124.772,-64.823C125.207,-64.828 125.602,-64.88 125.958,-64.979C126.769,-65.216 127.174,-65.809 127.174,-66.758L127.174,-82.386C127.174,-83.365 126.596,-83.987 125.439,-84.254C125.113,-84.323 123.836,-84.432 123.363,-84.432L123.052,-84.432C122.973,-84.432 122.933,-84.472 122.933,-84.551L122.933,-84.907C122.933,-84.986 122.973,-85.025 123.052,-85.025L123.116,-85.025C123.147,-85.04 123.19,-85.047 123.245,-85.047C124.599,-85.106 125.513,-85.828 125.988,-87.211L132.037,-104.722C132.047,-104.742 132.052,-104.767 132.052,-104.796L131.889,-105.286C131.889,-105.335 131.909,-105.36 131.948,-105.36L134.914,-105.36C134.933,-105.35 134.961,-105.34 134.995,-105.33C135.03,-105.32 135.057,-105.291 135.077,-105.241L141.349,-87.641C141.487,-87.374 141.598,-87.132 141.682,-86.915C141.766,-86.697 141.863,-86.5 141.971,-86.322C142.209,-85.916 142.599,-85.605 143.143,-85.388C143.598,-85.16 144.013,-85.047 144.388,-85.047C144.42,-85.047 144.445,-85.04 144.464,-85.025L144.491,-85.025ZM135.336,-85.025C135.428,-85.05 135.564,-85.067 135.744,-85.076C136.11,-85.096 136.411,-85.116 136.648,-85.136C138.022,-85.284 138.709,-85.748 138.709,-86.529C138.709,-86.589 138.7,-86.658 138.68,-86.737L136.441,-93.053C136.431,-93.073 136.411,-93.118 136.382,-93.187C136.263,-93.523 136.055,-93.691 135.759,-93.691L130.495,-93.691C130.199,-93.691 129.966,-93.528 129.798,-93.202C129.769,-93.132 129.754,-93.093 129.754,-93.083L127.53,-86.574L127.53,-86.44C127.53,-86.183 127.663,-85.951 127.93,-85.743C128.533,-85.279 129.344,-85.047 130.362,-85.047L130.747,-85.047C130.781,-85.047 130.807,-85.04 130.826,-85.025L135.336,-85.025ZM151.069,-104.834L150.18,-104.804C149.972,-104.799 149.868,-104.717 149.868,-104.559L149.868,-94.996L149.898,-94.551C149.928,-94.343 150.022,-94.235 150.18,-94.225L151.692,-94.136C153.284,-94.136 154.566,-94.669 155.54,-95.737C156.513,-96.805 157,-98.146 157,-99.763C157,-101.379 156.528,-102.632 155.584,-103.521C154.64,-104.411 153.382,-104.856 151.811,-104.856C151.672,-104.856 151.544,-104.853 151.425,-104.848C151.307,-104.843 151.188,-104.838 151.069,-104.834ZM135.255,-95.337C135.433,-95.337 135.522,-95.411 135.522,-95.559C135.522,-95.638 135.502,-95.727 135.462,-95.826L133.253,-101.905C133.154,-102.172 133.08,-102.305 133.031,-102.305C132.981,-102.305 132.902,-102.167 132.793,-101.89L130.718,-95.826C130.678,-95.727 130.658,-95.621 130.658,-95.507C130.658,-95.394 130.732,-95.337 130.881,-95.337L135.255,-95.337Z" style="fill-rule:nonzero;" />
+                    </g>
+                </svg></a><button data-bs-toggle="collapse" class="navbar-toggler me-3" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navcol-1" class="collapse navbar-collapse px-3 pb-2 px-lg-0 pb-lg-0"><ul id="menu-main-menu" class="navbar-nav"><li id="menu-item-24" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24"><a href="https://apexbranding.design/" class="nav-link">Home</a></li>
+<li id="menu-item-26" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="/works" class="nav-link">Case Studies</a></li>
+<li id="menu-item-27" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="/about" class="nav-link">About</a></li>
+<li id="menu-item-268" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-268"><a href="/podcasts" class="nav-link">Podcast</a></li>
+<li id="menu-item-28" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="/contact" class="nav-link">Contact</a></li>
+</ul></div>
+
+        </div>
+    </nav>
+	<main id="primary" class="site-main">
+
+		<section class="error-404 not-found">
+			<header class="page-header">
+				<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+			</header><!-- .page-header -->
+
+			<div class="page-content">
+				<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+
+					
+
+					
+
+			</div><!-- .page-content -->
+		</section><!-- .error-404 -->
+
+	</main><!-- #main -->
+
+
+<div class="section footer">
+        <div class="container">
+            <h3 class="footer-header">APEX<br>DESIGN STUDIO</h3>
+            <ul class="nav flex-column flex-lg-row mb-5">
+                <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/works">Case Studies</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                
+            </ul>
+            <ul class="nav social-links mb-4">
+                <li class="nav-item"><a class="nav-link active" href="https://www.facebook.com/apexbrandingdesign"><i class="fab fa-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com/in/jameswelbes/"><i class="fab fa-linkedin"></i></a></li>
+              <!--  <li class="nav-item"><a class="nav-link active" href="#"><i class="fab fa-twitter"></i></a></li> -->
+            </ul><span class="text-uppercase text-white-50">Copyright © Apex Design studio. All Rights Reserved</span>
+        </div><img class="footer-logo" src="https://apexbranding.design/wp-content/themes/apex-branding-design/assets/img/Apex-outline.svg">
+    </div>
+    
+
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/apex-branding-design/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script src="https://cdn.plyr.io/3.7.3/plyr.polyfilled.js"></script><script>
+	const players = Array.from(document.querySelectorAll(".video-apex")).map((p) => new Plyr(p));</script><script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script id="tec-user-agent-js" src="https://apexbranding.design/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="swiper-js-js" src="https://unpkg.com/swiper@8/swiper-bundle.min.js?ver=8.4.7"></script>
+<script id="youtube-for-wordpress-simple-youtube-feed-view-js-extra">
+var YT_FOR_WP = {"channelId":"UC4KXtFds_3R7xwGV79rZysg","apiKey":"AIzaSyAPzg72samnitFrfnOh4MDeaQciw1n_k98","restUrl":"https://apexbranding.design/wp-json/youtube-for-wordpress/v1/","nonce":"cdec45e193"};
+//# sourceURL=youtube-for-wordpress-simple-youtube-feed-view-js-extra
+</script>
+<script id="youtube-for-wordpress-simple-youtube-feed-view-js" src="https://apexbranding.design/wp-content/plugins/youtube-for-wordpress-pro/build/simple-youtube-feed/view.js?ver=2.0.0"></script>
+<script id="react-js" src="https://apexbranding.design/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"></script>
+<script id="react-jsx-runtime-js" src="https://apexbranding.design/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1"></script>
+<script id="react-dom-js" src="https://apexbranding.design/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"></script>
+<script id="wp-dom-ready-js" src="https://apexbranding.design/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="https://apexbranding.design/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://apexbranding.design/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://apexbranding.design/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="wp-url-js" src="https://apexbranding.design/wp-includes/js/dist/url.min.js?ver=bb0f766c3d2efe497871"></script>
+<script id="wp-api-fetch-js" src="https://apexbranding.design/wp-includes/js/dist/api-fetch.min.js?ver=d7efe4dc1468d36c39b8"></script>
+<script id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://apexbranding.design/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "cdec45e193" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://apexbranding.design/wp-admin/admin-ajax.php?action=rest-nonce";
+//# sourceURL=wp-api-fetch-js-after
+</script>
+<script id="wp-blob-js" src="https://apexbranding.design/wp-includes/js/dist/blob.min.js?ver=198af75fe06d924090d8"></script>
+<script id="wp-block-serialization-default-parser-js" src="https://apexbranding.design/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=bff55bd3f1ce9df0c99c"></script>
+<script id="wp-autop-js" src="https://apexbranding.design/wp-includes/js/dist/autop.min.js?ver=9d0d0901b46f0a9027c9"></script>
+<script id="wp-deprecated-js" src="https://apexbranding.design/wp-includes/js/dist/deprecated.min.js?ver=990e85f234fee8f7d446"></script>
+<script id="wp-dom-js" src="https://apexbranding.design/wp-includes/js/dist/dom.min.js?ver=66a6cf58e0c4cd128af0"></script>
+<script id="wp-escape-html-js" src="https://apexbranding.design/wp-includes/js/dist/escape-html.min.js?ver=3f093e5cca67aa0f8b56"></script>
+<script id="wp-element-js" src="https://apexbranding.design/wp-includes/js/dist/element.min.js?ver=15ba804677f72a8db97b"></script>
+<script id="wp-is-shallow-equal-js" src="https://apexbranding.design/wp-includes/js/dist/is-shallow-equal.min.js?ver=5d84b9f3cb50d2ce7d04"></script>
+<script id="wp-keycodes-js" src="https://apexbranding.design/wp-includes/js/dist/keycodes.min.js?ver=aa1a141e3468afe7f852"></script>
+<script id="wp-priority-queue-js" src="https://apexbranding.design/wp-includes/js/dist/priority-queue.min.js?ver=1f0e89e247bc0bd3f9b9"></script>
+<script id="wp-undo-manager-js" src="https://apexbranding.design/wp-includes/js/dist/undo-manager.min.js?ver=27bb0ae036a2c9d4a1b5"></script>
+<script id="wp-compose-js" src="https://apexbranding.design/wp-includes/js/dist/compose.min.js?ver=fbe37f6b46750554f947"></script>
+<script id="wp-private-apis-js" src="https://apexbranding.design/wp-includes/js/dist/private-apis.min.js?ver=835912f0086b9e59aed4"></script>
+<script id="wp-redux-routine-js" src="https://apexbranding.design/wp-includes/js/dist/redux-routine.min.js?ver=64f9f5001aabc046c605"></script>
+<script id="wp-data-js" src="https://apexbranding.design/wp-includes/js/dist/data.min.js?ver=1756b6a2676c1b3369ab"></script>
+<script id="wp-data-js-after">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+//# sourceURL=wp-data-js-after
+</script>
+<script id="wp-html-entities-js" src="https://apexbranding.design/wp-includes/js/dist/html-entities.min.js?ver=8c6fa5b869dfeadc4af2"></script>
+<script id="wp-rich-text-js" src="https://apexbranding.design/wp-includes/js/dist/rich-text.min.js?ver=16449e6108f48327f368"></script>
+<script id="wp-shortcode-js" src="https://apexbranding.design/wp-includes/js/dist/shortcode.min.js?ver=11742fe18cc215d3d5ab"></script>
+<script id="wp-warning-js" src="https://apexbranding.design/wp-includes/js/dist/warning.min.js?ver=36fdbdc984d93aee8a97"></script>
+<script id="wp-blocks-js" src="https://apexbranding.design/wp-includes/js/dist/blocks.min.js?ver=ef38e42500165bfda301"></script>
+<script id="moment-js" src="https://apexbranding.design/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"></script>
+<script id="moment-js-after">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+//# sourceURL=moment-js-after
+</script>
+<script id="wp-date-js" src="https://apexbranding.design/wp-includes/js/dist/date.min.js?ver=c9f8e7dd3232716f34e9"></script>
+<script id="wp-date-js-after">
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago","s":"a second","ss":"%d seconds","m":"a minute","mm":"%d minutes","h":"an hour","hh":"%d hours","d":"a day","dd":"%d days","M":"a month","MM":"%d months","y":"a year","yy":"%d years"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":-5,"offsetFormatted":"-5","string":"America/Chicago","abbr":"CDT"}} );
+//# sourceURL=wp-date-js-after
+</script>
+<script id="wp-primitives-js" src="https://apexbranding.design/wp-includes/js/dist/primitives.min.js?ver=a5c905ec27bcd76ef287"></script>
+<script id="wp-components-js" src="https://apexbranding.design/wp-includes/js/dist/components.min.js?ver=5dedfe13f08880193a28"></script>
+<script id="wp-keyboard-shortcuts-js" src="https://apexbranding.design/wp-includes/js/dist/keyboard-shortcuts.min.js?ver=2ed78d3b4c23f38804e0"></script>
+<script id="wp-commands-js" src="https://apexbranding.design/wp-includes/js/dist/commands.min.js?ver=e3d8bba53f4ffea4fcd2"></script>
+<script id="wp-notices-js" src="https://apexbranding.design/wp-includes/js/dist/notices.min.js?ver=218d0173a31ae7269246"></script>
+<script id="wp-preferences-persistence-js" src="https://apexbranding.design/wp-includes/js/dist/preferences-persistence.min.js?ver=e8033be98338d1861bca"></script>
+<script id="wp-preferences-js" src="https://apexbranding.design/wp-includes/js/dist/preferences.min.js?ver=035813168e404aa30193"></script>
+<script id="wp-preferences-js-after">
+( function() {
+				var serverData = false;
+				var userId = "0";
+				var persistenceLayer = wp.preferencesPersistence.__unstableCreatePersistenceLayer( serverData, userId );
+				var preferencesStore = wp.preferences.store;
+				wp.data.dispatch( preferencesStore ).setPersistenceLayer( persistenceLayer );
+			} ) ();
+//# sourceURL=wp-preferences-js-after
+</script>
+<script id="wp-style-engine-js" src="https://apexbranding.design/wp-includes/js/dist/style-engine.min.js?ver=faa37ce61b7ec8394b2a"></script>
+<script id="wp-theme-js" src="https://apexbranding.design/wp-includes/js/dist/theme.min.js?ver=e22ce547a4420507b323"></script>
+<script id="wp-token-list-js" src="https://apexbranding.design/wp-includes/js/dist/token-list.min.js?ver=16f0aebdd39d87c2a84b"></script>
+<script id="wp-upload-media-js" src="https://apexbranding.design/wp-includes/js/dist/upload-media.min.js?ver=d359c2cccf866d7082d2"></script>
+<script id="wp-block-editor-js" src="https://apexbranding.design/wp-includes/js/dist/block-editor.min.js?ver=f3d941bcb2e86c269881"></script>
+<script id="yt-for-wp-pro-view-js" src="https://apexbranding.design/wp-content/plugins/youtube-for-wordpress-pro/build/index.js?ver=557217782f13c8e22765"></script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://apexbranding.design","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="bootstrap-script-js" src="https://apexbranding.design/wp-content/themes/apex-branding-design/assets/bootstrap/js/bootstrap.min.js?ver=1.0.1"></script>
+<script id="script-js" src="https://apexbranding.design/wp-content/themes/apex-branding-design/assets/js/script.js?ver=1.0.1"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://apexbranding.design/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=["#angie-video",".angie-video","angie-video","presto-video-id-1 presto-preset-id-1","skin-default","hydrated"];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script></body>
+
+</html>

@@ -1,0 +1,21 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import FragmentPage from '../../components/FragmentPage.astro';
+
+export function getStaticPaths() {
+  const dir = path.resolve('src/fragments/works');
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith('.html'))
+    .map((f) => ({ params: { slug: f.replace(/\.html$/, '') } }));
+}
+
+const { slug } = Astro.params;
+const titles: Record<string, string> = {
+  'lets-go-party-bus': "Let's Go! Party Bus",
+  'the-space-coworking': 'The Space Coworking',
+  'cedar-rhapsody': 'Cedar Rhapsody School of Music',
+};
+const title = (titles[slug] || 'Case Study') + ' | Apex Branding &amp; Design';
+---
+<FragmentPage fragment={`works/${slug}.html`} title={title} />

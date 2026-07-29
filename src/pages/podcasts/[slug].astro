@@ -1,0 +1,15 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import FragmentPage from '../../components/FragmentPage.astro';
+
+export function getStaticPaths() {
+  const dir = path.resolve('src/fragments/podcasts');
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith('.html'))
+    .map((f) => ({ params: { slug: f.replace(/\.html$/, '') } }));
+}
+
+const { slug } = Astro.params;
+---
+<FragmentPage fragment={`podcasts/${slug}.html`} title="Podcast | Apex Branding &amp; Design" />
