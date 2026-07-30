@@ -1274,6 +1274,11 @@ h6 {
   object-fit: cover;
 }
 
+.card-portfolio-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 991px) {
   .card-portfolio-image {
     opacity: 0.3;
