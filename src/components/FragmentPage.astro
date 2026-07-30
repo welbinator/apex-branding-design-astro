@@ -7,8 +7,10 @@ export interface Props { fragment: string; title?: string; styles?: string[]; bo
 const { fragment, title = 'Apex Branding &amp; Design', styles = [], bodyClass = '' } = Astro.props;
 let html = fs.readFileSync(path.resolve('src/fragments/' + fragment), 'utf-8');
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-// Production: serve uploaded images from R2 custom domain. Local dev: leave as /uploads/.
-const assetHost = import.meta.env.PUBLIC_ASSET_HOST || '';
+// Images are served from the R2 custom domain in production (baked in as the default so
+// no build-env var is required). For local dev with on-disk images, set PUBLIC_ASSET_HOST=local.
+const rawHost = import.meta.env.PUBLIC_ASSET_HOST ?? 'https://assets.apexbranding.design';
+const assetHost = rawHost === 'local' ? '' : rawHost;
 if (assetHost) html = html.replace(/(src|href)="\/uploads\//g, `$1="${assetHost}/uploads/`)
                           .replace(/(srcset=")([^"]*)"/g, (m, p, v) => p + v.replace(/\/uploads\//g, `${assetHost}/uploads/`) + '"');
 if (base) html = html.replace(/(src|href|srcset)="\/(img|css|js|works|podcasts|about|contact|blog)/g, `$1="${base}/$2`);

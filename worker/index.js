@@ -1,18 +1,13 @@
-// POST /api/contact  — Apex Branding contact form handler
-// Cloudflare Pages Function. Bindings (set in dashboard / wrangler.json):
-//   DB                -> D1 database (apex-contact-submissions)
-//   TURNSTILE_SECRET  -> secret (Cloudflare Turnstile secret key)
-//   ALLOWED_ORIGIN    -> e.g. https://apexbranding.design  (optional; falls back to request host)
+// Cloudflare Worker entry for apexbranding.design
+// - Serves the static Astro site from the ASSETS binding (./dist)
+// - Handles POST /api/contact: validation, Turnstile, parameterized D1 insert, rate limit
 //
-// Security posture:
-//  - POST-only, JSON body, hard size cap
-//  - Origin check (same-site only)
-//  - Honeypot field silently drops bots
-//  - Cloudflare Turnstile server-side verification
-//  - Per-IP rate limiting via D1 (sliding window)
-//  - Strict field validation + length caps
-//  - Parameterized D1 insert (no string interpolation -> no SQLi)
-//  - No internal errors leaked to client
+// Bindings (see wrangler.jsonc):
+//   ASSETS            -> static assets (dist/)
+//   DB                -> D1 database (apex-contact-submissions)
+// Secrets (set via `wrangler secret put` / dashboard):
+//   TURNSTILE_SECRET  -> Cloudflare Turnstile secret key
+//   ALLOWED_ORIGIN    -> e.g. https://apexbranding.design (optional; falls back to request host)
 
 const LIMITS = {
   first_name: 100,
@@ -29,8 +24,8 @@ const VALID_INTERESTS = new Set([
   'Graphic Design',
   'eCommerce',
 ]);
-const RATE_LIMIT_MAX = 5; // submissions
-const RATE_LIMIT_WINDOW_MIN = 10; // per N minutes per IP
+const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_WINDOW_MIN = 10;
 const MAX_BODY_BYTES = 16 * 1024;
 
 const json = (obj, status = 200) =>
@@ -40,7 +35,6 @@ const json = (obj, status = 200) =>
   });
 
 function isEmail(s) {
-  // Pragmatic, not RFC-exhaustive. One @, dot in domain, no spaces.
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 }
 
@@ -79,15 +73,11 @@ async function rateLimited(db, ip) {
       .first();
     return row && row.c >= RATE_LIMIT_MAX;
   } catch (_) {
-    // Fail open on counting errors — never block a real lead over a rate-check bug.
     return false;
   }
 }
 
-export async function onRequestPost(context) {
-  const { request, env } = context;
-
-  // --- Origin / same-site check ---
+async function handleContact(request, env) {
   const url = new URL(request.url);
   const allowed = env.ALLOWED_ORIGIN || `${url.protocol}//${url.host}`;
   const origin = request.headers.get('Origin');
@@ -95,7 +85,6 @@ export async function onRequestPost(context) {
     return json({ ok: false, error: 'Invalid origin.' }, 403);
   }
 
-  // --- Body size cap ---
   const raw = await request.text();
   if (raw.length > MAX_BODY_BYTES) {
     return json({ ok: false, error: 'Payload too large.' }, 413);
@@ -108,19 +97,17 @@ export async function onRequestPost(context) {
     return json({ ok: false, error: 'Invalid request.' }, 400);
   }
 
-  // --- Honeypot: real users leave this blank. Bots fill it. Silently succeed. ---
+  // Honeypot: real users leave this blank. Pretend success, store nothing.
   if (clean(body.website_hp, 200)) {
-    return json({ ok: true }); // pretend success, store nothing
+    return json({ ok: true });
   }
 
-  // --- Turnstile ---
   const ip = request.headers.get('CF-Connecting-IP') || '';
   const ts = await verifyTurnstile(body.turnstile_token, env.TURNSTILE_SECRET, ip);
   if (!ts.ok) {
     return json({ ok: false, error: 'Verification failed. Please try again.' }, 403);
   }
 
-  // --- Validate + normalize fields ---
   const first_name = clean(body.first_name, LIMITS.first_name);
   const last_name = clean(body.last_name, LIMITS.last_name);
   const email = clean(body.email, LIMITS.email);
@@ -128,7 +115,8 @@ export async function onRequestPost(context) {
   const website = clean(body.website, LIMITS.website);
   const budget = clean(body.budget, LIMITS.budget);
   const message = clean(body.message, LIMITS.message);
-  const outsourcing = body.outsourcing === 'Yes' ? 'Yes' : body.outsourcing === 'No' ? 'No' : '';
+  const outsourcing =
+    body.outsourcing === 'Yes' ? 'Yes' : body.outsourcing === 'No' ? 'No' : '';
   const follow_up_ok = body.follow_up_ok ? 1 : 0;
 
   let interests = [];
@@ -145,7 +133,6 @@ export async function onRequestPost(context) {
     return json({ ok: false, error: errors.join(' ') }, 422);
   }
 
-  // --- Rate limit ---
   if (await rateLimited(env.DB, ip)) {
     return json(
       { ok: false, error: 'Too many submissions. Please try again later.' },
@@ -153,7 +140,6 @@ export async function onRequestPost(context) {
     );
   }
 
-  // --- Insert (parameterized) ---
   try {
     await env.DB.prepare(
       `INSERT INTO submissions
@@ -186,11 +172,21 @@ export async function onRequestPost(context) {
   return json({ ok: true });
 }
 
-// Reject non-POST methods cleanly.
-export async function onRequest(context) {
-  if (context.request.method === 'POST') return onRequestPost(context);
-  return new Response('Method Not Allowed', {
-    status: 405,
-    headers: { Allow: 'POST' },
-  });
-}
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+
+    if (url.pathname === '/api/contact') {
+      if (request.method !== 'POST') {
+        return new Response('Method Not Allowed', {
+          status: 405,
+          headers: { Allow: 'POST' },
+        });
+      }
+      return handleContact(request, env);
+    }
+
+    // Everything else: serve the static Astro site.
+    return env.ASSETS.fetch(request);
+  },
+};

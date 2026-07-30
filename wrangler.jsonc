@@ -1,0 +1,28 @@
+{
+  // Cloudflare Worker for apexbranding.design (static Astro site + contact API).
+  "name": "apex-branding-design-astro",
+  "main": "worker/index.js",
+  // Pin to the newest date the build runtime supports. The failed auto-config
+  // picked "2026-07-30" which the workerd binary rejects ("newest supported 2026-07-29").
+  "compatibility_date": "2026-07-29",
+  "compatibility_flags": ["nodejs_compat"],
+
+  // Serve the Astro static build. run_worker_first=false so static assets are
+  // served directly by the edge; the Worker only runs for non-asset routes (e.g. /api/contact).
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "apex-contact-submissions",
+      "database_id": "1d22749c-daa7-4c64-b39b-6b898a34181c"
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+}
