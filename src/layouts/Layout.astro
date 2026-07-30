@@ -15,6 +15,10 @@ const logoSvg = fs.readFileSync(path.resolve('src/logo.svg'), 'utf-8');
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <title>{title}</title>
+  <link rel="icon" href={`${base}uploads/2021/06/apex-black-150x150.png`} sizes="32x32" />
+  <link rel="icon" href={`${base}uploads/2021/06/apex-black.png`} sizes="192x192" />
+  <link rel="icon" href={`${base}uploads/2021/06/apex-black.svg`} type="image/svg+xml" />
+  <link rel="apple-touch-icon" href={`${base}uploads/2021/06/apex-black.png`} />
   {styles.map((s) => <link rel="stylesheet" href={`${base}${s}`} />)}
   <link rel="stylesheet" href={`${base}css/bootstrap.min.css`} />
   <link rel="stylesheet" href={`${base}css/fontawesome-all.min.css`} />
