@@ -32,7 +32,12 @@ PUBLIC_ASSET_HOST=https://assets.apexbranding.design npm run build && npm run pr
 
 ## Bindings (configured in the Pages dashboard)
 
-- **D1 database** — binding name `DB` → database `apex-contact-submissions`
+> Note: bindings are set in the Cloudflare Pages dashboard (Settings → Functions →
+> Bindings), **not** in a `wrangler.json`. A `wrangler.json` in the repo makes Pages'
+> CI attempt a Workers-style `wrangler deploy` and the build fails with
+> "Missing entry-point to Worker script". Keep it out of the repo.
+
+- **D1 database** — binding name `DB` → database `apex-contact-submissions` (id `1d22749c-daa7-4c64-b39b-6b898a34181c`)
 - **R2 bucket** — binding name `ASSETS_BUCKET` → bucket `apex-assets`
 
 ## Secrets (Pages → Settings → Environment variables, encrypted)
